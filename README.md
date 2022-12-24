@@ -1,7 +1,7 @@
 # text-art
 
 Free for anyone to use to create their own text art creations.
-If you choose to, pleasse credit the link to this repo.
+If you choose to, please credit the link to this repo.
 
 DEPENDENCIES:
 opencv-python
