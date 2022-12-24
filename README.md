@@ -36,3 +36,7 @@ scale = 10
 For example, setting the scale to 10 will mean that every 10th pixel will be turned into text. 
 The smaller the value, the more pixels will be turned into text.
 However, this may take more time to generate the video. Feel free to also change the density and font_size for interesting effects.
+
+---------------------------------------------------------------------------------------------------------
+Text Art Demo:
+https://user-images.githubusercontent.com/94652084/209448272-00255fa3-62ec-42b2-bdf5-b955090876e1.mp4
