@@ -3,7 +3,7 @@
 Free for anyone to use to create their own text art creations.
 If you choose to, pleasse credit the link to this repo.
 
-DEPENDENCIES:.
+DEPENDENCIES:
 opencv-python
 os
 numpy
