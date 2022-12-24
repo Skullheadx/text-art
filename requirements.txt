@@ -1,5 +1,3 @@
 opencv-python 
-os 
 numpy 
-math 
 moviepy
