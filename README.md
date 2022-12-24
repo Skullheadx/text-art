@@ -3,13 +3,6 @@
 Free for anyone to use to create their own text art creations.
 If you choose to, please credit the link to this repo.
 
-DEPENDENCIES:
-opencv-python
-os
-numpy
-math
-moviepy
-
 ---------------------------------------------------------------------------------------------------------
 HOW TO USE:
 1. Create folders in same folder as main.py:
