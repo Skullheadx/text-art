@@ -2,11 +2,8 @@
 /shelf/
 /workspace.xml
 .idea/
-frames/
-text_art_frames/
-input/
-output/
 __pycache__/
 *.mp4
 *.jpg
 *.png
+*.txt
