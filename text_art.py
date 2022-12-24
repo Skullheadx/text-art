@@ -32,9 +32,10 @@ def text_art_image(path: str) -> None:
         if (x % scale) or (y % scale):
             continue
 
-        if y == 0 and x > 0:
+        line += density[math.floor(find_index(image[index], 0, 255, 0, density_length - 1))]
+        if x == 0 and y > 0:
             line += '\n'
 
     # Write to txt file
-    with open(os.path.join(text_art_txts_path,f"frame{get_number(path)}.txt"), "w") as f:
+    with open(os.path.join(text_art_txts_path, f"frame{get_number(path)}.txt"), "w") as f:
         f.write(line)

@@ -12,25 +12,29 @@ output_path = "output/"
 
 is_video = True
 
-filename = "3x14x9 4x4 Piston Door.mp4"
+filename = "Rick Astley - Never Gonna Give You Up (Official Music Video) (online-video-cutter.com).mp4"
 
 input_filename = os.path.join(input_path, filename)
 output_filename = os.path.join(output_path, filename)
-output_filename_no_audio = os.path.join(output_path, "no audio" + filename)
+output_filename_no_audio = os.path.join(output_path, "no audio " + filename)
 
 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
 # density = "Ñ@#W$9876543210?!abc;:+=-,._       "
-# density = density[::-1]
 density = '     .:-i|=+%O#@'
+# density = density[::-1]
 density_length = len(density)
 
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 scale = 10
 font_size = 1
 thick = 1
+
+# scale = 10
+# font_size = 1
+# thick = 1
 
 
 def get_number(filename: str):
