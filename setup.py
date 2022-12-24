@@ -2,12 +2,12 @@ import cv2
 import os
 import numpy as np
 import math
-
+from moviepy.editor import *
 
 frames_path = "C:/Users/admon/Documents/GitHub/text-art/frames/"
 text_art_frames_path = "C:/Users/admon/Documents/GitHub/text-art/text_art_frames/"
 output_filename = "output/output.mp4"
-input_filename = "input/donut.mp4"
+input_filename = "input/Rick Astley - Never Gonna Give You Up (Official Music Video).mp4"
 
 BLACK = (0,0,0)
 WHITE = (255,255,255)
